@@ -1,0 +1,196 @@
+{
+    "type": "machine",
+    "setting_id": "GM001",
+    "name": "Speed X1 0.8 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_solifuse_common",
+    "printer_model": "Speed X1",
+    "default_print_profile": "0.2mm Layer Height - Standard",
+    "max_layer_height": [
+        "0.6"
+    ],
+    "min_layer_height": [
+        "0.2"
+    ],
+    "nozzle_diameter": [
+        "0.8"
+    ],
+    "printable_area": [
+        "0x0",
+        "600x0",
+        "600x600",
+        "0x600"
+    ],
+    "printable_height": "120",
+    "printer_variant": "0.6",
+    "auxiliary_fan": "0",
+    "bed_custom_model": "",
+    "bed_custom_texture": "",
+    "bed_exclude_area": [
+        "0x0"
+    ],
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\n",
+    "best_object_pos": "0.5,0.5",
+    "change_extrusion_role_gcode": "",
+    "change_filament_gcode": "T[next_extruder]",
+    "cooling_tube_length": "10",
+    "cooling_tube_retraction": "100",
+    "default_filament_profile": [],
+    "deretraction_speed": [
+        "35"
+    ],
+    "enable_filament_ramming": "1",
+    "extra_loading_move": "2",
+    "extruder_clearance_height_to_lid": "120",
+    "extruder_clearance_height_to_rod": "120",
+    "extruder_clearance_radius": "155",
+    "extruder_colour": [
+        "#FCE94F"
+    ],
+    "extruder_offset": [
+        "0x0"
+    ],
+    "fan_kickstart": "0",
+    "fan_speedup_overhangs": "1",
+    "fan_speedup_time": "1",
+    "gcode_flavor": "marlin",
+    "high_current_on_filament_swap": "0",
+    "host_type": "octoprint",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
+    "machine_end_gcode": "G92 E0\nM400\nM140 S0\n{if (max_layer_z + 20) < 110}\nG1 X20 Y600 Z{max_layer_z + 20.0} F6000\n{else}\nG1 X20 Y600 Z120 F6000\n{endif}\nM500\n{if!  has_wipe_tower}\nG1 E10 F900\nG1 E-15 F6000\nG1 E-85 F3000\n{endif}\nT0\nM400\nM107\nM104 S0\nM77\nM84XY",
+    "machine_load_filament_time": "0",
+    "machine_max_acceleration_e": [
+        "1000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "1000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1000"
+    ],
+    "machine_max_acceleration_travel": [
+        "3000"
+    ],
+    "machine_max_acceleration_x": [
+        "2000"
+    ],
+    "machine_max_acceleration_y": [
+        "2000"
+    ],
+    "machine_max_acceleration_z": [
+        "1000"
+    ],
+    "machine_max_jerk_e": [
+        "50"
+    ],
+    "machine_max_jerk_x": [
+        "2"
+    ],
+    "machine_max_jerk_y": [
+        "2"
+    ],
+    "machine_max_jerk_z": [
+        "0.5"
+    ],
+    "machine_max_speed_e": [
+        "100"
+    ],
+    "machine_max_speed_x": [
+        "300"
+    ],
+    "machine_max_speed_y": [
+        "300"
+    ],
+    "machine_max_speed_z": [
+        "50"
+    ],
+    "machine_min_extruding_rate": [
+        "0"
+    ],
+    "machine_min_travel_rate": [
+        "0"
+    ],
+    "machine_pause_gcode": "M600",
+    "machine_start_gcode": "M75\nG90\nM83\nT0\nM107\nM104 S[nozzle_temperature_initial_layer]\nM140 S[bed_temperature_initial_layer]\nM204 S1000\nG28\nG1 X650 Y100 Z0.5 F4000\nM109 S[nozzle_temperature_initial_layer]\nG1 E10 F900\nG1 E-15 F6000\nG1 E-65 F3000\nT1\nG1 E80 F200\nG1 E40 F50\nG1 E10 F900\nG1 E-15 F6000\nG1 E-85 F3000\nM400\nM106 S255\nG4 S5\nG1 X630 Y100 Z0.3 F4000\nG1 X650 Y100 Z0.3 F4000\nM107\nT0\nG1 E75 F1200\nG1 E80 F200\nG1 E40 F50\nG1 E10 F900\nG1 E-15 F6000\nG1 E-85 F3000\nM400\nM106 S255\nG4 S5\nG1 X630 Y100 Z0.3 F4000\nG1 X650 Y100 Z0.3 F4000\nG1 Z5\nG1 X635 Y90\nG1 Z0.3\nM400\nM104 S0\nM106 S255\nG4 S10\nG1 X650 Z1 F4000\nM190 S[bed_temperature_initial_layer]\nM107\nG29\nM400\nM500\nM420 S1\nM400\nM104 S[nozzle_temperature_initial_layer]\nG1 X650 Y100 Z0.3 F4000\nM109 S[nozzle_temperature_initial_layer]\nT[initial_no_support_extruder]\nG1 E80 F200\nG1 E40 F100\nG1 E100 F500\nG1 E100 F500\nG1 E100 F500\nG1 X650 Y100 Z0.3 F4000\nG1 X630 Y100 Z0.3 F4000\nG1 X650 Y100 Z0.3 F4000\nG1 X630 Y100 Z0.3 F4000\nG1 X650 Y100 Z0.3 F4000\nG1 Z5 F4000\nG1 X635 Y30\nG1 Z0.3\nG1 E20 F200\nG1 Z0.5\nG1 E30 F100\nM400\nM104 S0\nM106 S255\nG4 S30\nG1 Z10 F1000\nG1 E-2 F4000\nG1 Z100 F3000\nG4 S2\nG1 X650 Y110 F4000\nM400\nM107\nM104 S[nozzle_temperature_initial_layer]\nG1 X635 Y120\nG1 Z0.4 F2000\nM109 S[nozzle_temperature_initial_layer]\nG1 F1000\nG1 Y320 E50\nG1 X630 E1.25\nG1 Y120 E50\nG1 F12000",
+    "machine_unload_filament_time": "0",
+    "manual_filament_change": "0",
+    "nozzle_hrc": "0",
+    "nozzle_type": "brass",
+    "nozzle_volume": "0",
+    "parking_pos_retraction": "100",
+    "print_host": "",
+    "print_host_webui": "",
+    "printer_notes": "",
+    "printer_settings_id": "Speed X1 0.6",
+    "printer_structure": "undefine",
+    "printer_technology": "FFF",
+    "printhost_apikey": "",
+    "printhost_authorization_type": "key",
+    "printhost_cafile": "",
+    "printhost_password": "",
+    "printhost_port": "",
+    "printhost_ssl_ignore_revoke": "0",
+    "printhost_user": "",
+    "purge_in_prime_tower": "1",
+    "retract_before_wipe": [
+        "70%"
+    ],
+    "retract_length_toolchange": [
+        "0"
+    ],
+    "retract_lift_above": [
+        "0"
+    ],
+    "retract_lift_below": [
+        "0"
+    ],
+    "retract_lift_enforce": [
+        "All Surfaces"
+    ],
+    "retract_restart_extra": [
+        "0"
+    ],
+    "retract_restart_extra_toolchange": [
+        "0"
+    ],
+    "retract_when_changing_layer": [
+        "1"
+    ],
+    "retraction_length": [
+        "5"
+    ],
+    "retraction_minimum_travel": [
+        "1"
+    ],
+    "retraction_speed": [
+        "60"
+    ],
+    "scan_first_layer": "0",
+    "silent_mode": "0",
+    "single_extruder_multi_material": "1",
+    "support_air_filtration": "0",
+    "support_chamber_temp_control": "0",
+    "template_custom_gcode": "",
+    "thumbnails": [],
+    "thumbnails_format": "PNG",
+    "time_cost": "0",
+    "time_lapse_gcode": "",
+    "upward_compatible_machine": [],
+    "use_firmware_retraction": "0",
+    "use_relative_e_distances": "1",
+    "version": "1.8.0.0",
+    "wipe": [
+        "0"
+    ],
+    "wipe_distance": [
+        "1"
+    ],
+    "z_hop": [
+        "0.4"
+    ],
+    "z_hop_types": [
+        "Slope Lift"
+    ],
+    "z_offset": "0"
+}

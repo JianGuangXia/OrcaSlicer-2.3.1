@@ -1,0 +1,1 @@
+call scripts/run_gettext.bat

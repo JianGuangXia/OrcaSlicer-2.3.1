@@ -1,0 +1,18 @@
+{
+    "type": "filament",
+    "filament_id": "GFU99",
+    "setting_id": "GFSA04",
+    "name": "Generic TPU",
+    "from": "system",
+    "instantiation": "false",
+    "inherits": "fdm_filament_tpu",
+    "filament_max_volumetric_speed": [
+        "3.2"
+    ],
+    "compatible_printers": [
+        "Speed X1 0.6 nozzle",
+        "Speed X2 0.6 nozzle",
+        "Speed X3 0.6 nozzle"
+    ]
+}
+

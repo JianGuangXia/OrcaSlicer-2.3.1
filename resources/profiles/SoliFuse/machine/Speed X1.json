@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "Speed X1",
+    "model_id": "Speed X1",
+    "nozzle_diameter": "0.6;0.8",
+    "machine_tech": "FFF",
+    "family": "SoliFuse",
+    "bed_model": "",
+    "bed_texture": "",
+    "hotend_model": "",
+    "default_materials": "PEA;PES;PES White (Light-tight)"
+}

@@ -1,0 +1,1408 @@
+{
+    "list": [
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PA-CF @System.json",
+            "md5": "71762bce5a74bf944f43e8cb37ade682"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PA-CF @base.json",
+            "md5": "e99601349ec205f8a65e0c7a8b48b296"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PETG @System.json",
+            "md5": "bea0ab7e2a30f8904282c822a6803951"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PETG @base.json",
+            "md5": "756f26abc29172bff59c777e92c1c497"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PETG-CF @System.json",
+            "md5": "005ba06d39fc6a5968e9c569c961d7bd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PETG-CF @base.json",
+            "md5": "7ab5c719a7e3b0843732436240f5edba"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PETG-Metal @System.json",
+            "md5": "89d9a469e1097d7253fe52b917dc50f9"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PETG-Metal @base.json",
+            "md5": "d0bccc2aaa7fb7213312c087bab4ba06"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PLA @System.json",
+            "md5": "8a2bacc434c47ef6a8ecd86d1f63c215"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\AliZ\\AliZ PLA @base.json",
+            "md5": "996d7b9849735f24635db684d967a3b8"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ABS @System.json",
+            "md5": "9f3e860619697e9595c36790074042ef"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ABS @base.json",
+            "md5": "2784c21e674de438d08e3bc9cf88aed2"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ABS-GF @System.json",
+            "md5": "c658073983e1c619d1be68561e9c9ca3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ABS-GF @base.json",
+            "md5": "cbbf72acaebebdaa419b5fbf91910ba1"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ASA @System.json",
+            "md5": "627326029e742f06232cf316f4c6d1f1"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ASA @base.json",
+            "md5": "ae32623d61b1f696ac382381545e3691"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ASA-Aero @System.json",
+            "md5": "c3fe6717348d56c400880a10383c3f47"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ASA-Aero @base.json",
+            "md5": "1729538e785bf595534922599f209285"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ASA-CF @System.json",
+            "md5": "5ca3c2db822cff770d17978dd0976691"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu ASA-CF @base.json",
+            "md5": "283d62843cb1149ab945cfea7eb8c9d9"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PA-CF @System.json",
+            "md5": "b01bd902e1a64612ce7a85b769e6eaf6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PA-CF @base.json",
+            "md5": "72777f7c592afb3c32c946c3837ffbf6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PA6-CF @System.json",
+            "md5": "38884f63dc4559325b29ec5235448b70"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PA6-CF @base.json",
+            "md5": "2c6b47dcb4f19aff47e065bf2d8ad37b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PA6-GF @System.json",
+            "md5": "6451e31855f7671779e8ef24be9d08a1"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PA6-GF @base.json",
+            "md5": "ec49b2fe7affe23188954db474756722"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PAHT-CF @System.json",
+            "md5": "4518312fcd83357eafeab987d2fa3d1a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PAHT-CF @base.json",
+            "md5": "9812a12c7af94add7fa222dce98f4564"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PC @System.json",
+            "md5": "778a449fac22c10b6615a7beed35b7ee"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PC @base.json",
+            "md5": "96ee71e0ccfcc352287ad73980f9fe89"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PC FR @System.json",
+            "md5": "80072371ec6a615d1b77c19028c52735"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PC FR @base.json",
+            "md5": "96e3ff18860b6a7915f31bf913d397bb"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PET-CF @System.json",
+            "md5": "f4f1ff7f7047968b765621098ab01f29"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PET-CF @base.json",
+            "md5": "b419961c1f2979d74c6045a578ee7ee2"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG Basic @System.json",
+            "md5": "a57c96d26044462d86def4fb9c9cf5de"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG Basic @base.json",
+            "md5": "021879e9646f95db71b04dbbccc7a112"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG HF @System.json",
+            "md5": "4d7e57366b85708f3053e4c5ec1a0c33"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG HF @base.json",
+            "md5": "6795f26e7924fe1d98b42f1059e61448"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG Translucent @System.json",
+            "md5": "397eaf1139817ef31d91c226fda6a450"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG Translucent @base.json",
+            "md5": "cb5a211628c75497417c407a56143549"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG-CF @System.json",
+            "md5": "266207152b8896c1446cd8cfebdb37bc"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PETG-CF @base.json",
+            "md5": "571bad093841f9479d4c5d741570d522"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Aero @System.json",
+            "md5": "a9899c1396ce102f47e27bb06877664e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Aero @base.json",
+            "md5": "ce2ac1d6f3de2e80481c33bceda859d0"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Basic @System.json",
+            "md5": "8b85863d901bbcd7800a154c0132ca61"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Basic @base.json",
+            "md5": "5cb8f4351423afd22c2bb1e440da20d8"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Dynamic @System.json",
+            "md5": "6103e37e5b5fff1f5d87345d0db5a745"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Dynamic @base.json",
+            "md5": "92a35f6467f0c8835a15e8448cbfa361"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Galaxy @System.json",
+            "md5": "229bab4e069046bddd7a585773725871"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Galaxy @base.json",
+            "md5": "5eacd06311d6120d868de669a3be7482"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Glow @System.json",
+            "md5": "452c3c248c22a0feb97185df7aa4419f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Glow @base.json",
+            "md5": "4d0fca91c1e510e04a75fe35d58c4337"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Impact @System.json",
+            "md5": "75ddfebc12bbef111110623b27a871f1"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Impact @base.json",
+            "md5": "308acd21c1b43c4dc7d068123bc60c78"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Marble @System.json",
+            "md5": "48e8617eabcda51b306fb83f01c2e0bd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Marble @base.json",
+            "md5": "7c3e4e1b7f8b53774f4c0ab0d8c455d5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Matte @System.json",
+            "md5": "fd9e732eeac856b00c2ba0bb1cdcb166"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Matte @base.json",
+            "md5": "1185d488f050c104f21c29a71ddc9ac1"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Metal @System.json",
+            "md5": "fa878ea5bfde54845d02f0bd799b9a95"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Metal @base.json",
+            "md5": "eccea96421b71b1e62dc76237e7c9b95"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Silk @System.json",
+            "md5": "c35198f3465a9a8406b5b496919253ab"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Silk @base.json",
+            "md5": "dc4ebede9c8f1b25b8dd846bf44c7c24"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Silk+ @System.json",
+            "md5": "147eb82a5c30e4dc0386ae3ba1acc6ba"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Silk+ @base.json",
+            "md5": "50a28d9716e7f0fb80c84b779ded020e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Sparkle @System.json",
+            "md5": "65350dbf33b8b0e6d5aadb6d34da6e45"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Sparkle @base.json",
+            "md5": "0571065783b26daddb834f8a24d56fc6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Tough @System.json",
+            "md5": "3189ffbb06b8b011f7f3de28f281f056"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Tough @base.json",
+            "md5": "eb32870b016cc2e9b243857e31705be5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Wood @System.json",
+            "md5": "e3903abd7e76f21ffc33bce42cbd843d"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA Wood @base.json",
+            "md5": "153c0e9430b071597c022c3c3adb1831"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA-CF @System.json",
+            "md5": "92582d124aa538629662d3129950c0f5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PLA-CF @base.json",
+            "md5": "0b75615c2bd7627aa2defcdfedbdaf5c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PPA-CF @System.json",
+            "md5": "097f0c1a7c06251a15942a3c57208332"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PPA-CF @base.json",
+            "md5": "d465a30b99fe142e070d4baa6a7ad2c7"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PPS-CF @base.json",
+            "md5": "d165b81d2c2814e2f0a7ab4628ab130d"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PVA @System.json",
+            "md5": "43f86ad15f6046a885047665e6a5b9a0"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu PVA @base.json",
+            "md5": "de94b9405819b557aa46838663590ac5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support For PA PET @System.json",
+            "md5": "3d921b33d18c4a1bdf1e0deae781238a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support For PA PET @base.json",
+            "md5": "dfff2ec01476dad5074ac48a86cc2ea4"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support For PLA @System.json",
+            "md5": "a080977db60d36a2d0aa842a0965e7a6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support For PLA @base.json",
+            "md5": "50d31100200c8337451b27a8b074819f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support For PLA-PETG @System.json",
+            "md5": "5ded64b75d84eda8cbc69ea88f455e1a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support For PLA-PETG @base.json",
+            "md5": "d10275db152f771972a8308eadc3f33a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support G @System.json",
+            "md5": "96a79eff5f41e525650022005d7b4499"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support G @base.json",
+            "md5": "64530718b252c1f99a639085434a0ede"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support W @System.json",
+            "md5": "255ce20b7eec70fa5019cac1cea15b23"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support W @base.json",
+            "md5": "bb67259a7f81b7eaa895b1746f42cb58"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support for ABS @System.json",
+            "md5": "1d1a0772d16a931d5c9a36912ae5fbd2"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu Support for ABS @base.json",
+            "md5": "658bde5948eb0d86f01ca26689c3e95c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu TPU 95A @System.json",
+            "md5": "b4007ec220b844074ed1ac8fc6e452de"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu TPU 95A @base.json",
+            "md5": "c1b942a206f93a39e43d0e59166927cf"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu TPU 95A HF @System.json",
+            "md5": "dfaab4fcb55f21904472ad8f4a3fd4cd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Bambu\\Bambu TPU 95A HF @base.json",
+            "md5": "7742ceabfab13d1ff4fd72c6a9307e61"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX ABS @System.json",
+            "md5": "63d0ca8c502d8582b3ee74bd8146c308"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX ABS @base.json",
+            "md5": "3dcfefe0f46e07107a414385bb9b7a3d"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX ABS PRIME @System.json",
+            "md5": "e1ec05abcd9499a6e033c4c9d2667c1f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX ABS PRIME @base.json",
+            "md5": "c30273e1d447cceb62d1f18fa6d0cb6e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX ASA PRIME @System.json",
+            "md5": "cb81c69fa6df4fbc260f811f1a1dedee"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX ASA PRIME @base.json",
+            "md5": "191dabe3a8cc114a61e96ba33bea7131"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX NYLEX PA6-CF @System.json",
+            "md5": "1985a4919e1b29dc7a0ba40a3c889b69"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX NYLEX PA6-CF @base.json",
+            "md5": "95f99ca4deb42b33636b2797e0247011"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX NYLEX UNFILLED @System.json",
+            "md5": "958aaafa3bc829d0211a5e3f1f204119"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX NYLEX UNFILLED @base.json",
+            "md5": "d5c385ee23bfc5b429836ec053c3a9ea"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PCTG PRIME @System.json",
+            "md5": "a7b84e3b88bf65f593e8977cbd0abed3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PCTG PRIME @base.json",
+            "md5": "782a91123d367b10a23f4f7365d86754"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PETG @System.json",
+            "md5": "524ac49dd5f8d80ef260ce4923173f96"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PETG @base.json",
+            "md5": "16ca211fb206147c1a0323ca69ef8ba3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PLA @System.json",
+            "md5": "1dfb914f7063540e1bfdd026ad689c16"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PLA @base.json",
+            "md5": "38ad061f519a4172007f9701f37b8279"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PLA PRIME @System.json",
+            "md5": "e741024d9d536c85851037d42893616b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PLA PRIME @base.json",
+            "md5": "a447ae3ef9066650a3b4aa8500db5002"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PLA+Silk @System.json",
+            "md5": "b584f6e16f9d4c6ecb7b3c95d9be7c62"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX PLA+Silk @base.json",
+            "md5": "67b94c33921136dba8153e6ee0d99eac"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPE 30D @System.json",
+            "md5": "fedd81a5b539284acce503d0098d542c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPE 30D @base.json",
+            "md5": "9eec64b641bc5a80e3a4023d71e84419"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPE 40D @System.json",
+            "md5": "c2025a18e95fef6fa90b533871c33501"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPE 40D @base.json",
+            "md5": "af36007b07f7213690072e2afcf70933"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPE 60D @System.json",
+            "md5": "2731f51bb3c64f1198a91c995e9205d5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPE 60D @base.json",
+            "md5": "a8498b3b7e0df220657291d947539a68"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPU 60A @System.json",
+            "md5": "373c53933b01c3254a00b20034d7550c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\COEX\\COEX TPU 60A @base.json",
+            "md5": "568ef460a2af5d919dbc961f194b8f12"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast ABS @System.json",
+            "md5": "13d9ce305f9470528f2fd8db30a244e3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast ABS @base.json",
+            "md5": "5561ea365ea041f15f142f3d97b391ce"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast HIPS @System.json",
+            "md5": "4fe498f7c695b95a530dbc24f015d9fe"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast HIPS @base.json",
+            "md5": "7955146772368dc2675eb66a98e8141c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast PETG @System.json",
+            "md5": "2c75bec5cb38251e783ffb9efcfe4408"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast PETG @base.json",
+            "md5": "c17e2caf26cf7fdb55b4ce29c90b3e51"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast PLA @System.json",
+            "md5": "f486546590ed7026098b19957bb2e14b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast PLA @base.json",
+            "md5": "dee8f4d65099dc6cbed814654a104b62"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast SBS @System.json",
+            "md5": "495512841c8912a196b214904df815cc"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast SBS @base.json",
+            "md5": "af543930c4664ba2e22823f24d306eff"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast TPU @System.json",
+            "md5": "fc28190c1b29e1686831ddb1bce1c0ff"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FDplast\\FDplast TPU @base.json",
+            "md5": "5a788c2d85d542160b61a8c18904dec5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FusRock\\FusRock ABS-GF @System.json",
+            "md5": "aa344a6e4b6ec9db00ed528915f3b91a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\FusRock\\FusRock ABS-GF @base.json",
+            "md5": "82bea10fb409ae0a105004583eeb3310"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic ABS @System.json",
+            "md5": "3336d88524cb9386594186a6d45e8be9"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic ASA @System.json",
+            "md5": "6765a32255a768bb76e0d28d38f40ed9"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic BVOH @System.json",
+            "md5": "6b37b09f4e83a0f5ba45e4313246086c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic EVA @System.json",
+            "md5": "ef1ea1c99fec103e9894801123085aa7"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic HIPS @System.json",
+            "md5": "b58e473f658527274321ff65b3e1aae9"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PA @System.json",
+            "md5": "6fe8a04f171bdfc24f2c4718e592ef72"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PA-CF @System.json",
+            "md5": "b02b4df8a3782d47301cb0db41252e1c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PC @System.json",
+            "md5": "0e5eb277b5c169c5b440b1cbe0e0eadd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PCTG @System.json",
+            "md5": "19ae517824d9729bd3313cab7d219835"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PE @System.json",
+            "md5": "4785258e3a0f199ee976997623bb7555"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PE-CF @System.json",
+            "md5": "bdaf5915094c3c9b979007d55c0ec68e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PETG @System.json",
+            "md5": "c3af29b24749e44faef1767ffabc60ea"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PETG HF @System.json",
+            "md5": "5d3987cdebc5efc6b59f295f718e3207"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PETG-CF @System.json",
+            "md5": "218f47dc8e9373af390b36980bd18de3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PHA @System.json",
+            "md5": "ee20ff7f4de0f9427529edcac1f7e214"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PLA @System.json",
+            "md5": "c1a52584ee182124cf6a3694616d303a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PLA High Speed @System.json",
+            "md5": "fb603d09db09d2192bb2c000375f5b08"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PLA Matte @System.json",
+            "md5": "3daaec22abefe9a4487d3f4c64c173d4"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PLA Silk @System.json",
+            "md5": "01d2c51d23717bbfdc77f77eb70b2b4b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PLA-CF @System.json",
+            "md5": "993594dbe515879cb73b516ee0a1a36b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PP @System.json",
+            "md5": "d6a41ca2db9f7c9ccbcb7cab078c892c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PP-CF @System.json",
+            "md5": "357c5f311e03bf33bd5db72439a2ec59"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PP-GF @System.json",
+            "md5": "6b882f39ca690bc3aba444c42a376ea3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PPA-CF @System.json",
+            "md5": "c67b06f5f620f0e1b610e752a15000cc"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PPA-GF @System.json",
+            "md5": "ed0c7e95e7eab2c4f7c26d9b906acfdf"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic PVA @System.json",
+            "md5": "a2cbae6ec93e0aa6a86d750704a424d0"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic SBS @System.json",
+            "md5": "7622c034dfbb7018487ee0f2aea4e373"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Generic TPU @System.json",
+            "md5": "92a895b90b6bdbdbad59fa60c4adabec"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\NIT\\NIT ABS @System.json",
+            "md5": "4370ec59d7f3abd7a9563f92e4269583"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\NIT\\NIT ABS @base.json",
+            "md5": "0d3979c51131bf9b1510c97e5df42728"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\NIT\\NIT PETG @System.json",
+            "md5": "65c93e133bbfdf59df99f89d194abe22"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\NIT\\NIT PETG @base.json",
+            "md5": "6e73a74d748d1b2777c930e8a984aad0"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\NIT\\NIT PLA @System.json",
+            "md5": "4824bccb0bd831a0a2661d0ded8d2715"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\NIT\\NIT PLA @base.json",
+            "md5": "c0a5852965122043ee83d8abec32a6d0"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Numakers\\Numakers PLA+ @System.json",
+            "md5": "8c94011963e311be60d5ba1156a2a47f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Numakers\\Numakers PLA+ @base.json",
+            "md5": "52fd84823bb6c9656ccce031f5629d4d"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture ABS Basic @System.json",
+            "md5": "a5ccad3e33f0230f8efbc3c1ebc3d372"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture ABS Basic @base.json",
+            "md5": "4d87591e345f02c9747c6a8a38691005"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture ASA @System.json",
+            "md5": "1f245e9660bafdb6c6b1f315458e4479"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture ASA @base.json",
+            "md5": "da70eabf35c2abfe96d07f175012e6e5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Air PLA @System.json",
+            "md5": "b665d4cc857e36daf3992f6125aadebb"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Air PLA @base.json",
+            "md5": "005a700a5780bdac224a953d822dc667"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Easy PLA @System.json",
+            "md5": "13d5ebbe47e4e24bfa141cf1975b3613"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Easy PLA @base.json",
+            "md5": "8a57d48cc1ef8d3aa2fda50f9b1e0026"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Matte PLA @System.json",
+            "md5": "5db81b10f0df5bcbabd4b95214ced818"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Matte PLA @base.json",
+            "md5": "9f602f5a192303fd8e471a2b17a988b5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture PLA @System.json",
+            "md5": "2d8f91aafeeb6ee0c16eb59281d0b0dd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture PLA @base.json",
+            "md5": "3f1bcf0e54bd701302a45dfb8bd1904c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture PLA Pro @System.json",
+            "md5": "dc26feeff56362825bde62b35e28e603"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture PLA Pro @base.json",
+            "md5": "5025e1b3939230ff0fc69e0e75ceab38"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Rock PLA @System.json",
+            "md5": "2898aa6f2b7048c6e9d73e56d44d1d8d"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Rock PLA @base.json",
+            "md5": "b52897b917a995a75e31f38ff0e2146e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Silk PLA @System.json",
+            "md5": "619a2b0d713bc02bbf9c4b767aaf7297"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Silk PLA @base.json",
+            "md5": "ace52c1cfc09b0bcea3f6e73085eef72"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Super PLA+ @System.json",
+            "md5": "cb31e7a01e390682ad58f432c910849b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture Super PLA+ @base.json",
+            "md5": "5be7a723b9f3974fa4a990f96e753acf"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture TPU @System.json",
+            "md5": "b00a5ccaa559237bc80e5a33f7d57000"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Overture\\Overture TPU @base.json",
+            "md5": "c2684fe5670bba9271b97a251d5d82bd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA12-CF @System.json",
+            "md5": "d9cc30df0f06ecc369bdd8e698c52cea"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA12-CF @base.json",
+            "md5": "14b70faf5ca8a5f0649ff175694aa6ba"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA6-CF @System.json",
+            "md5": "6337987d08dfbe10777ce698335a59a7"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA6-CF @base.json",
+            "md5": "e87109c6165f0fc8aca5b159a5205dd5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA6-GF @System.json",
+            "md5": "2ee188e0ce2401ef696251aee7a08c1c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA6-GF @base.json",
+            "md5": "7bf01f4d7f92dca3763707581b67a3f4"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA612-CF @System.json",
+            "md5": "831b264807ae1a97b5a9d899cc709be6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PA612-CF @base.json",
+            "md5": "462231f17d7285063dc216d56e42585c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PET-CF @System.json",
+            "md5": "f665f2af3d8a996a2f4804d52fc00738"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PET-CF @base.json",
+            "md5": "d4b57cd95ed89b4a0c102800da866611"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PETG-ESD @System.json",
+            "md5": "fb2f0fa392daff5d9755109c4e86ce57"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PETG-ESD @base.json",
+            "md5": "c3ca4f5bcf7d79b0e366cab435eaaa15"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PETG-rCF @System.json",
+            "md5": "80e0391d4941e340c49b89ba43a69c1b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Fiberon PETG-rCF @base.json",
+            "md5": "c3ef0c6dfcaab3e792620942107c0c34"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma CoPE @System.json",
+            "md5": "34eb7c34fad097a2053126120586a816"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma CoPE @base.json",
+            "md5": "57001bf43d2b5bc7bfa8bb48938f0478"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA @System.json",
+            "md5": "020655c5398d95b3d77c092e31c4659b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA @base.json",
+            "md5": "0d5b661b78bd37395645654afe29d7bc"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Celestial @System.json",
+            "md5": "7f8f07b1f543301119e59db349719a2f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Celestial @base.json",
+            "md5": "3a624df81c481ff320d3aae51a491bfb"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Galaxy @System.json",
+            "md5": "cfcae52a94da7e3ea7beb552b8ceecbe"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Galaxy @base.json",
+            "md5": "765edf4d68ac4ae3e1436356439d40be"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Glow @System.json",
+            "md5": "c551e6aee84529683e7d3eac345e7aeb"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Glow @base.json",
+            "md5": "94bfb7bd4d2e26d43c4ca4ac516ba643"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Luminous @System.json",
+            "md5": "112db78208c38fce083b6754a182b846"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Luminous @base.json",
+            "md5": "faca10a597cf7f545a6f0344f57d43ab"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Marble @System.json",
+            "md5": "6d0cc085c872bde888e3fecd95b42da5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Marble @base.json",
+            "md5": "55ae6a68047d82cbdf0be48d7922aa5a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Matte @System.json",
+            "md5": "af852b7623278b857caafcadba65dfc8"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Matte @base.json",
+            "md5": "fb0dd31151d896babfe1de73fdb3bd4f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Metallic @System.json",
+            "md5": "e56411d6eea5b09ac4c253e2f75b0ec6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Metallic @base.json",
+            "md5": "33d6cf87f740e7811bf48ad48b7d2576"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Neon @System.json",
+            "md5": "20c8fe2de90d789bd9f728c100f06e7a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Neon @base.json",
+            "md5": "6388e81e7720a581438dcb26f3b8a6f6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Silk @System.json",
+            "md5": "1d18d1d1658383d10be36ebf5b9dfdd2"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Silk @base.json",
+            "md5": "f5104c21073f22ebcebb85dd612f53e0"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Stain @System.json",
+            "md5": "7582392513498065cc7b64a2283d7e38"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Stain @base.json",
+            "md5": "e909e99e23d6606eb167a97fc87b1598"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Starlight @System.json",
+            "md5": "25006246946be3d3698658607e27b948"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Starlight @base.json",
+            "md5": "669bb2f8ca101aefd4641494381999b5"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Temp Shift @System.json",
+            "md5": "a9f6cc7805ac34ad20f951defc80ece8"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Temp Shift @base.json",
+            "md5": "89007f1afff80180517b5a8e5e8e2a61"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Translucent @System.json",
+            "md5": "a24e782cdf36eadb34e3e27cdde77dbf"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA Translucent @base.json",
+            "md5": "a720e2cfeed59b5a1c2669f51b391611"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA UV Shift @System.json",
+            "md5": "a93e32685425f9a4f410089686d3aa62"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Panchroma PLA UV Shift @base.json",
+            "md5": "4e5f2d10c0bcbecf291320e6f80089a3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite ABS @System.json",
+            "md5": "e8153763bd0ca7d095ab6087ad8fb824"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite ABS @base.json",
+            "md5": "708c2f4a614a370185427a906dc3780a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite ASA @System.json",
+            "md5": "6e5d434488b267d97b57b101f06c12dd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite ASA @base.json",
+            "md5": "2be9b29ace5d20d31af0b958e279b4fe"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite Dual PLA @System.json",
+            "md5": "7ee549fe9750a189098b78090fd5a359"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite PETG @System.json",
+            "md5": "7292a47c4784fe3ef6dfffeef1f9e638"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite PETG @base.json",
+            "md5": "b80f4d66c8669daa501a98b824af3d24"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite PLA @System.json",
+            "md5": "71350279472afd0b401cc5bb288fbc00"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite PLA @base.json",
+            "md5": "9dad353f417c496b8a2cb1f3c2a58fef"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite PLA Pro @System.json",
+            "md5": "baff7c255fa5e60f9f73d8dd169279ec"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyLite PLA Pro @base.json",
+            "md5": "fbfe34f07959e042243e1e391fe3d06d"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyTerra Dual PLA @System.json",
+            "md5": "87b8c5918932b0470116d0ec9fde3ca0"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyTerra PLA @System.json",
+            "md5": "96019ddceb427f518f48fbc2ac23371e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\PolyTerra PLA @base.json",
+            "md5": "20df1fb08485491bdff085c6d989cdc7"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Polymaker HT-PLA @System.json",
+            "md5": "26c1f56bd279e3d61dec780522a4acf9"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Polymaker HT-PLA @base.json",
+            "md5": "15930e557d1544c4a9a1f4c8f7332e3d"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Polymaker HT-PLA-GF @System.json",
+            "md5": "466343c8688bf492f6dc2461cfd3e341"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Polymaker\\Polymaker HT-PLA-GF @base.json",
+            "md5": "fb68e74a95d56fedab331daab75382a2"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU Marble PLA @System.json",
+            "md5": "b28ffd71123bc518db2e083dad0b577c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU Marble PLA @base.json",
+            "md5": "022e561558fa45106e9eeb73b07e680a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PETG @System.json",
+            "md5": "cc62cb97e2560df843ac8903fe0ee85a"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PETG @base.json",
+            "md5": "24d1999fc62c2db096eb8265928b9e9c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PLA Matte @System.json",
+            "md5": "d0bd9271d86cd84475a948244a1c7c91"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PLA Matte @base.json",
+            "md5": "564d6a96430cdf0dc91037ebd983241e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PLA+ 2.0 @System.json",
+            "md5": "1e3c2df300069ee2b10bd4cdc0f9bfa3"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PLA+ 2.0 @base.json",
+            "md5": "fbce59491070bbd7654e5670bf6669ef"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PLA+ @System.json",
+            "md5": "cea7c77d999e8e6bce0abf632f5f1c67"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU PLA+ @base.json",
+            "md5": "e98b5a5446dc3a18f674ca449a3fd1aa"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU Silk PLA+ @System.json",
+            "md5": "ffd1a04c3c6dd42447c42192e7879563"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU Silk PLA+ @base.json",
+            "md5": "a7884f9b46a189993bfbd5f084e92441"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU Wood PLA @System.json",
+            "md5": "c692d41485f743f99d146be19a436d45"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\SUNLU\\SUNLU Wood PLA @base.json",
+            "md5": "aaeeddf289f476d824c1ea08ab6d86de"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA @System.json",
+            "md5": "96e5c1861f751e812e8e9cdd8f9c6d6e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA @base.json",
+            "md5": "502ff47e6639c3c9afb15eb2ba34e761"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA Galaxy @System.json",
+            "md5": "9fcd85642e58eed5276af03cce1e4ffd"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA Galaxy @base.json",
+            "md5": "1940bac4330a26d58cd9c291d398ce78"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA Silk @System.json",
+            "md5": "1e4317a991748cd9632340920377e5bc"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA Silk @base.json",
+            "md5": "ae17c3075986552a13a853e978e4211c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA-CF @System.json",
+            "md5": "fdae094d1de78fc4a8c511d1c37d4f7f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\Valment\\Valment PLA-CF @base.json",
+            "md5": "e3c018c5ed406a2bc5f7d6a0f84121a6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_abs.json",
+            "md5": "f6d793f1c5b5ec175f4d02a16dbccb16"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_asa.json",
+            "md5": "89f5d7eddcabd7222597bbdbc8db155b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_bvoh.json",
+            "md5": "a4ab43604d748d320b38ccb8a2eef205"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_common.json",
+            "md5": "8bc8fa5d1dc3b661075e93e8adf6645f"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_eva.json",
+            "md5": "67631dde0db0e34c99adc232dce71e7b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_hips.json",
+            "md5": "65a8c72e9f4b245962dbbf94970225b4"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pa.json",
+            "md5": "85151a3f860f9781b754e0446a1c9325"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pc.json",
+            "md5": "baad3c968c2c664313bffef4dabe37db"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pctg.json",
+            "md5": "c2049215da297cc8bf640a34976a978b"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pe.json",
+            "md5": "a50e91c9398b2e0c056071b0e4c93b26"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pet.json",
+            "md5": "45fba6d15bd53e80b298152feec0da04"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pha.json",
+            "md5": "20604b4fe6a894e4124775d68620e397"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pla.json",
+            "md5": "6df81787c80a913029b43579261f5c97"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pla_silk.json",
+            "md5": "58c8472844860918329b20aa99276153"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pp.json",
+            "md5": "6e4d0b5e1e589e53bbc98f4132208e4e"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_ppa.json",
+            "md5": "b2fed5dbb0bb3a4a5d7f7a2deecc0b55"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pps.json",
+            "md5": "3632011e763db0581948d28f7154e8a6"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_pva.json",
+            "md5": "c2e52ab8ebe9ac54e43d594337e1eba8"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_sbs.json",
+            "md5": "95dabeccbdfdbd56206749026a85cf57"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\base\\fdm_filament_tpu.json",
+            "md5": "1246a3d50cb29db3a3879aebfc02de12"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\eSUN\\eSUN PETG @System.json",
+            "md5": "9b5137c22506fc1ab66d981ce94257c1"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\eSUN\\eSUN PETG @base.json",
+            "md5": "d9fe6844ef2dde1f81ec664eb90e8333"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\eSUN\\eSUN PLA+ @System.json",
+            "md5": "0d145eb696bb519dcbcbe0307c21568c"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\eSUN\\eSUN PLA+ @base.json",
+            "md5": "54214005235a8e483ed490837d3d6441"
+        },
+        {
+            "path": "OrcaFilamentLibrary\\filament\\eSUN\\eSUN ePLA-LW @System.json",
+            "md5": "c6510819aa766b66ac9cf879c207e554"
+        },
+        {
+            "path": "OrcaFilamentLibrary.json",
+            "md5": "b11f816fc3f63b327ee79924b172d1f7"
+        },
+        {
+            "path": "SoliFuse\\Speed X1_cover.png",
+            "md5": "97a158add1662927a6ee6436ab5ae518"
+        },
+        {
+            "path": "SoliFuse\\Speed X2_cover.png",
+            "md5": "97a158add1662927a6ee6436ab5ae518"
+        },
+        {
+            "path": "SoliFuse\\Speed X3_cover.png",
+            "md5": "97a158add1662927a6ee6436ab5ae518"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic ABS.json",
+            "md5": "8b8f7397d5d8fb1da25159cc030d5baa"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic ASA.json",
+            "md5": "5b800f76b0fb5f28321897f4d4772505"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic PA-CF.json",
+            "md5": "bece4062fed421cb673d1360ceaf83b1"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic PA.json",
+            "md5": "f9482d869b90b16218c77b7de9257c91"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic PC.json",
+            "md5": "66ec82e502c896b220fa7491d6f3f2c7"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic PETG.json",
+            "md5": "e2afd29e5a485b43c9d33b2456a29fac"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic PLA-CF.json",
+            "md5": "a76ac2dd4327deb86d5a075d7fa0ab3c"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic PLA.json",
+            "md5": "3543b51c8fd2f74781be53e0be5fec9d"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic PVA.json",
+            "md5": "7b086dec21738830b930e7ef5e8b833c"
+        },
+        {
+            "path": "SoliFuse\\filament\\Generic TPU.json",
+            "md5": "7305a67546b69cbc09e4ddab9a873c3a"
+        },
+        {
+            "path": "SoliFuse\\filament\\PEA.json",
+            "md5": "9e3b2b2635169e1af2f06e35a9636b3a"
+        },
+        {
+            "path": "SoliFuse\\filament\\PES White (Light-tight).json",
+            "md5": "16381da9dccf683b14357afe20e1c545"
+        },
+        {
+            "path": "SoliFuse\\filament\\PES.json",
+            "md5": "83c69ae2c5b86f0e4d3cbe2d7abb42e6"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_abs.json",
+            "md5": "64821be62f0b403cd0081e38b79f92a6"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_asa.json",
+            "md5": "9e38742579c6c329f6c4336bec6f9ea6"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_common.json",
+            "md5": "c39ac5a8c85d5d2a3c87f35037766886"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_pa.json",
+            "md5": "4036ee3d3fd39d87f942ee08d2c9c75a"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_pc.json",
+            "md5": "05ecf526ac30a4df41aab1f95985922b"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_pet.json",
+            "md5": "4b8814928dd87d122342e9f26cdb72f8"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_pla.json",
+            "md5": "aebb6b344efa22dc4d6347c0780bb77f"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_pva.json",
+            "md5": "cc40455f1e02a21a81268b7e4f20589f"
+        },
+        {
+            "path": "SoliFuse\\filament\\fdm_filament_tpu.json",
+            "md5": "20933969ee455494c26e00a08b5717d1"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X1 0.6 nozzle.json",
+            "md5": "62abc23a1efb649c3d97400b00d961f2"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X1 0.8 nozzle.json",
+            "md5": "e750cabbef3bb22795cd47ae4584135e"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X1.json",
+            "md5": "08a695df050ad89ae4a16035f0f983c2"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X2 0.6 nozzle.json",
+            "md5": "9aff86b7d247eb8170e08a6c24623215"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X2 0.8 nozzle.json",
+            "md5": "6c6eb189727e16f887bfc26814d64ad3"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X2.json",
+            "md5": "0a8fa32ab70f9b8f54af55363e4ce150"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X3 0.6 nozzle.json",
+            "md5": "9435f847830f437d80e06533f89639cf"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X3 0.8 nozzle.json",
+            "md5": "5176beaf3407f6be075cb65d8644a8ef"
+        },
+        {
+            "path": "SoliFuse\\machine\\Speed X3.json",
+            "md5": "27749681fb468fc71f7b40c1c6282683"
+        },
+        {
+            "path": "SoliFuse\\machine\\fdm_machine_common.json",
+            "md5": "8c90c175db6cc4bb7a3672b5dc6f9be9"
+        },
+        {
+            "path": "SoliFuse\\machine\\fdm_solifuse_common.json",
+            "md5": "f3bc302fdb9acb088c4a24141273421a"
+        },
+        {
+            "path": "SoliFuse\\process\\0.6mm Line Width 0.3mm Layer - Small Letters.json",
+            "md5": "2c5d164a0e346a5bb98e459a494dc02c"
+        },
+        {
+            "path": "SoliFuse\\process\\0.8mm Line Width 0.4mm Layer.json",
+            "md5": "d138b76bde8e7b67e92d66ccc75502f4"
+        },
+        {
+            "path": "SoliFuse\\process\\0.9mm Line Width 0.4mm Layer.json",
+            "md5": "ce47e97c98edc71e78088462008113df"
+        },
+        {
+            "path": "SoliFuse\\process\\1.2mm Line Width 0.4mm Layer.json",
+            "md5": "202757135060dac7555152f1fb844c26"
+        },
+        {
+            "path": "SoliFuse\\process\\fdm_process_common.json",
+            "md5": "b7a8390c27b1e81ab299a552e86425f2"
+        },
+        {
+            "path": "SoliFuse\\process\\fdm_process_solifuse_common.json",
+            "md5": "6d74ba9c83ac8e34882713334ea0cd38"
+        },
+        {
+            "path": "SoliFuse\\process\\fdm_process_solifuse_common_0_6.json",
+            "md5": "cecb5a38768109655a877473650bcf30"
+        },
+        {
+            "path": "SoliFuse\\process\\fdm_process_solifuse_common_0_6_base.json",
+            "md5": "893bd5d24d529c19f6fc8b1ebd103c5a"
+        },
+        {
+            "path": "SoliFuse.json",
+            "md5": "4a3888dcca329a36ce02d70616b642aa"
+        },
+        {
+            "path": "hotend.stl",
+            "md5": "92fc78781cf3214263427e6fab99a110"
+        }
+    ]
+}

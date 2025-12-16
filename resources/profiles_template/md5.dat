@@ -1,0 +1,60 @@
+{
+    "list": [
+        {
+            "path": "Template\\filament\\filament_abs_template.json",
+            "md5": "27a0d248ef61cc3fd7ea40e815609d55"
+        },
+        {
+            "path": "Template\\filament\\filament_asa_template.json",
+            "md5": "654916580e816653772b74d4e3fde4b7"
+        },
+        {
+            "path": "Template\\filament\\filament_hips_template.json",
+            "md5": "f139b098d252e0f7c8fe240281da8d25"
+        },
+        {
+            "path": "Template\\filament\\filament_pa_template.json",
+            "md5": "9ea3b44499eaa7435f244b38c3898600"
+        },
+        {
+            "path": "Template\\filament\\filament_pc_template.json",
+            "md5": "3be4ecb27221b0df2a67de73426f2128"
+        },
+        {
+            "path": "Template\\filament\\filament_pet_template.json",
+            "md5": "0c4057d75d58d8af395235fcdc4e001b"
+        },
+        {
+            "path": "Template\\filament\\filament_pla_template.json",
+            "md5": "82d3ae1442870dbf255cc5092e350638"
+        },
+        {
+            "path": "Template\\filament\\filament_ppa_template.json",
+            "md5": "0d3214ccd7c9c16f58cf1f3eb24ddbc9"
+        },
+        {
+            "path": "Template\\filament\\filament_pps_template.json",
+            "md5": "2eaea4ed32d199b7af43a71cc6db7b77"
+        },
+        {
+            "path": "Template\\filament\\filament_pva_template.json",
+            "md5": "174894e5ea131b322212c7cdc1cf8492"
+        },
+        {
+            "path": "Template\\filament\\filament_sbs_template.json",
+            "md5": "fae70f8cf6262b15dee508aee27bb347"
+        },
+        {
+            "path": "Template\\filament\\filament_tpu_template.json",
+            "md5": "1afa090a06ca4b7a74f21a3a99b18a6c"
+        },
+        {
+            "path": "Template\\process\\process template.json",
+            "md5": "d94aabe2bd4dbf225c9f6367d0487f41"
+        },
+        {
+            "path": "Template.json",
+            "md5": "c4a8c3ed005ed2ae6cc4b31e83a3225f"
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "name": "SoliFuse",
+    "version": "01.08.00.00",
+    "force_update": "0",
+    "description": "SoliFuse configurations",
+    "machine_model_list": [
+        {
+            "name": "Speed X1",
+            "sub_path": "machine/Speed X1.json"
+        },
+        {
+            "name": "Speed X2",
+            "sub_path": "machine/Speed X2.json"
+        },
+        {
+            "name": "Speed X3",
+            "sub_path": "machine/Speed X3.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "fdm_process_solifuse_common",
+            "sub_path": "process/fdm_process_solifuse_common.json"
+        },
+        {
+            "name": "fdm_process_solifuse_common_0_6",
+            "sub_path": "process/fdm_process_solifuse_common_0_6.json"
+        },
+        {
+            "name": "fdm_process_solifuse_common_0_6_base",
+            "sub_path": "process/fdm_process_solifuse_common_0_6_base.json"
+        },
+        {
+            "name": "0.9mm Line Width 0.4mm Layer",
+            "sub_path": "process/0.9mm Line Width 0.4mm Layer.json"
+        },
+        {
+            "name": "0.8mm Line Width 0.4mm Layer",
+            "sub_path": "process/0.8mm Line Width 0.4mm Layer.json"
+        },
+        {
+            "name": "1.2mm Line Width 0.4mm Layer",
+            "sub_path": "process/1.2mm Line Width 0.4mm Layer.json"
+        },
+        {
+            "name": "0.6mm Line Width 0.3mm Layer - Small Letters",
+            "sub_path": "process/0.6mm Line Width 0.3mm Layer - Small Letters.json"
+        }
+    ],
+    "filament_list": [
+        {
+            "name": "fdm_filament_common",
+            "sub_path": "filament/fdm_filament_common.json"
+        },
+        {
+            "name": "fdm_filament_pla",
+            "sub_path": "filament/fdm_filament_pla.json"
+        },
+        {
+            "name": "fdm_filament_tpu",
+            "sub_path": "filament/fdm_filament_tpu.json"
+        },
+        {
+            "name": "fdm_filament_pet",
+            "sub_path": "filament/fdm_filament_pet.json"
+        },
+        {
+            "name": "fdm_filament_abs",
+            "sub_path": "filament/fdm_filament_abs.json"
+        },
+        {
+            "name": "fdm_filament_pc",
+            "sub_path": "filament/fdm_filament_pc.json"
+        },
+        {
+            "name": "fdm_filament_asa",
+            "sub_path": "filament/fdm_filament_asa.json"
+        },
+        {
+            "name": "fdm_filament_pva",
+            "sub_path": "filament/fdm_filament_pva.json"
+        },
+        {
+            "name": "fdm_filament_pa",
+            "sub_path": "filament/fdm_filament_pa.json"
+        },
+        {
+            "name": "Generic PLA",
+            "sub_path": "filament/Generic PLA.json"
+        },
+        {
+            "name": "Generic PLA-CF",
+            "sub_path": "filament/Generic PLA-CF.json"
+        },
+        {
+            "name": "Generic PETG",
+            "sub_path": "filament/Generic PETG.json"
+        },
+        {
+            "name": "Generic ABS",
+            "sub_path": "filament/Generic ABS.json"
+        },
+        {
+            "name": "Generic TPU",
+            "sub_path": "filament/Generic TPU.json"
+        },
+        {
+            "name": "Generic ASA",
+            "sub_path": "filament/Generic ASA.json"
+        },
+        {
+            "name": "Generic PC",
+            "sub_path": "filament/Generic PC.json"
+        },
+        {
+            "name": "Generic PVA",
+            "sub_path": "filament/Generic PVA.json"
+        },
+        {
+            "name": "Generic PA",
+            "sub_path": "filament/Generic PA.json"
+        },
+        {
+            "name": "Generic PA-CF",
+            "sub_path": "filament/Generic PA-CF.json"
+        },
+        {
+            "name": "PEA",
+            "sub_path": "filament/PEA.json"
+        },
+        {
+            "name": "PES",
+            "sub_path": "filament/PES.json"
+        },
+        {
+            "name": "PES White (Light-tight)",
+            "sub_path": "filament/PES White (Light-tight).json"
+        }
+    ],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "fdm_solifuse_common",
+            "sub_path": "machine/fdm_solifuse_common.json"
+        },
+        {
+            "name": "Speed X1 0.6 nozzle",
+            "sub_path": "machine/Speed X1 0.6 nozzle.json"
+        },
+        {
+            "name": "Speed X1 0.8 nozzle",
+            "sub_path": "machine/Speed X1 0.8 nozzle.json"
+        },
+        {
+            "name": "Speed X2 0.6 nozzle",
+            "sub_path": "machine/Speed X2 0.6 nozzle.json"
+        },
+        {
+            "name": "Speed X2 0.8 nozzle",
+            "sub_path": "machine/Speed X2 0.8 nozzle.json"
+        },
+        {
+            "name": "Speed X3 0.6 nozzle",
+            "sub_path": "machine/Speed X3 0.6 nozzle.json"
+        },
+        {
+            "name": "Speed X3 0.8 nozzle",
+            "sub_path": "machine/Speed X3 0.8 nozzle.json"
+        }
+    ]
+}
