@@ -242,5 +242,13 @@
     ],
     "textured_plate_temp_initial_layer": [
         "60"
+    ],
+    "compatible_printers": [
+      "Speed X1 0.6 nozzle",
+      "Speed X1 0.8 nozzle",
+      "Speed X2 0.6 nozzle",
+      "Speed X2 0.8 nozzle",
+      "Speed X3 0.6 nozzle",
+      "Speed X3 0.8 nozzle"
     ]
 }  

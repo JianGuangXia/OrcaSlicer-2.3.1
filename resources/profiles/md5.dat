@@ -1218,7 +1218,7 @@
         },
         {
             "path": "OrcaFilamentLibrary.json",
-            "md5": "b11f816fc3f63b327ee79924b172d1f7"
+            "md5": "42312914d3c25589641a4d5fea163748"
         },
         {
             "path": "SoliFuse\\Speed X1_cover.png",
@@ -1274,15 +1274,15 @@
         },
         {
             "path": "SoliFuse\\filament\\PEA.json",
-            "md5": "9e3b2b2635169e1af2f06e35a9636b3a"
+            "md5": "50767fcccb28a94f2826ade4603c579d"
         },
         {
             "path": "SoliFuse\\filament\\PES White (Light-tight).json",
-            "md5": "16381da9dccf683b14357afe20e1c545"
+            "md5": "c701886db8a8f2ff6593e409e5d4ef51"
         },
         {
             "path": "SoliFuse\\filament\\PES.json",
-            "md5": "83c69ae2c5b86f0e4d3cbe2d7abb42e6"
+            "md5": "0742bfe341b20064fe51251d1f94d0ef"
         },
         {
             "path": "SoliFuse\\filament\\fdm_filament_abs.json",
@@ -1326,7 +1326,7 @@
         },
         {
             "path": "SoliFuse\\machine\\Speed X1 0.8 nozzle.json",
-            "md5": "e750cabbef3bb22795cd47ae4584135e"
+            "md5": "28dda43ddeb0c5bb82c4db938a9409e7"
         },
         {
             "path": "SoliFuse\\machine\\Speed X1.json",
@@ -1338,7 +1338,7 @@
         },
         {
             "path": "SoliFuse\\machine\\Speed X2 0.8 nozzle.json",
-            "md5": "6c6eb189727e16f887bfc26814d64ad3"
+            "md5": "85eda072c5632a64cd1893758ebbfebc"
         },
         {
             "path": "SoliFuse\\machine\\Speed X2.json",
@@ -1350,7 +1350,7 @@
         },
         {
             "path": "SoliFuse\\machine\\Speed X3 0.8 nozzle.json",
-            "md5": "5176beaf3407f6be075cb65d8644a8ef"
+            "md5": "6f7ca79407db48acda0f0ad0cb165bee"
         },
         {
             "path": "SoliFuse\\machine\\Speed X3.json",
@@ -1362,7 +1362,7 @@
         },
         {
             "path": "SoliFuse\\machine\\fdm_solifuse_common.json",
-            "md5": "f3bc302fdb9acb088c4a24141273421a"
+            "md5": "91d40027eb8dc0d53aee82e62ab688a3"
         },
         {
             "path": "SoliFuse\\process\\0.6mm Line Width 0.3mm Layer - Small Letters.json",
