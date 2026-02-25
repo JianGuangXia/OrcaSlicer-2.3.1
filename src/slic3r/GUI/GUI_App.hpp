@@ -29,6 +29,12 @@
 #include <mutex>
 #include <stack>
 
+
+#include "spdlog/spdlog.h"
+#include "spdlog/sinks/basic_file_sink.h"
+
+
+
 //#define BBL_HAS_FIRST_PAGE          1
 #define STUDIO_INACTIVE_TIMEOUT     15*60*1000
 #define LOG_FILES_MAX_NUM           30
@@ -220,7 +226,24 @@ public:
     }
 };
 
-class GUI_App : public wxApp
+class  configHelper
+{
+  public:
+    configHelper();
+  
+    bool isDebugMode();
+
+    std::string GetUrl();
+  private:
+    bool         ReadConfig(const std::string& name = "configure.ini");
+
+  private:
+    bool bDebug;
+    std::string  strUrl;
+};
+
+
+ class GUI_App : public wxApp
 {
 public:
 
@@ -684,6 +707,7 @@ public:
     void            restart_networking();
     void            check_config_updates_from_updater() { check_updates(false); }
 
+    configHelper helper_;
 private:
     int             updating_bambu_networking();
     bool            on_init_inner();
@@ -710,6 +734,8 @@ private:
     void            handle_export_outline(const boost::property_tree::ptree& root);
     void            handle_download_stl(const boost::property_tree::ptree &root);
 
+    //void            setFolderAccess(const std::string& folder_name = "generator\\www\\API\\public") ;
+
     long                    startSubProcess();
     void                    stopSubProcess();
     long                    m_subProcessId;
@@ -719,6 +745,9 @@ private:
     boost::optional<Semver> m_last_config_version;
     bool                    m_config_corrupted { false };
     std::string             m_open_method;
+
+    bool getLocalAppDataFloder(boost::filesystem::path&  fpath);
+    std::shared_ptr<spdlog::logger> logger_;
 };
 
 DECLARE_APP(GUI_App)

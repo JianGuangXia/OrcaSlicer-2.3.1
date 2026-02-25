@@ -18,11 +18,11 @@
 #include <slic3r/GUI/Widgets/WebView.hpp>
 
 namespace pt = boost::property_tree;
-#ifdef MCOR_TEST
-#define FORM_LETTER_WEBSITE "https://formletter.websitesprojects.top/Client/?app=1 "
-#else
- #define FORM_LETTER_WEBSITE "http://127.0.0.1:8080/?app=1"
-#endif
+//#ifdef MCOR_TEST
+//#define FORM_LETTER_WEBSITE "https://formletter.websitesprojects.top/Client/?app=1 "
+//#else
+// #define FORM_LETTER_WEBSITE "http://127.0.0.1:8080/?app=1"
+//#endif
 
 namespace Slic3r {
 namespace GUI {
@@ -48,7 +48,7 @@ WebViewPanel::WebViewPanel(wxWindow *parent)
         url = wxString::Format("file://%s/web/homepage/index.html?lang=%s", from_u8(resources_dir()), strlang);
     #endif
 
-    wxString    url      = FORM_LETTER_WEBSITE;
+    wxString    url      = wxGetApp().helper_.GetUrl();
     wxBoxSizer* topsizer = new wxBoxSizer(wxVERTICAL);
     
 #if !BBL_RELEASE_TO_PUBLIC

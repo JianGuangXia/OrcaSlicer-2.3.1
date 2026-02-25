@@ -35,6 +35,7 @@
 #include <boost/nowide/convert.hpp>
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/json_parser.hpp>
+#include <boost/property_tree/ini_parser.hpp>
 #include <boost/beast/core/detail/base64.hpp>
 
 #include <wx/stdpaths.h>
@@ -121,6 +122,7 @@
 //#endif
 
 
+
 #ifdef __WXMSW__
 #include <dbt.h>
 #include <shlobj.h>
@@ -165,10 +167,26 @@ namespace pt = boost::property_tree;
 
 #define _HIDE_WELCOME_WIZARD
 #define _HIDE_DO_YOU_KNOWN
+
+// 测试留下download 的文件
+#ifndef NOT_REMOVE_FILE
+#define NOT_REMOVE_FILE
+#endif
+
+#include <windows.h>
+#include <aclapi.h>
+
 namespace Slic3r {
 namespace GUI {
 
 class MainFrame;
+
+boost::filesystem::path getExePath()
+{
+    char buffer[MAX_PATH];
+    GetModuleFileNameA(nullptr, buffer, MAX_PATH);
+    return boost::filesystem::path(buffer).parent_path();
+}
 
 void start_ping_test()
 {
@@ -501,7 +519,7 @@ private:
             // title
             title = wxGetApp().is_editor() ? SLIC3R_APP_FULL_NAME : GCODEVIEWER_APP_NAME;
 
-            wxString Suffix = "Generator V2.0.1-SE /" ;
+            wxString Suffix = "Generator V2.0.5-SE/" ;
             // dynamically get the version to display
             version = Suffix  + GUI_App::format_display_version();
 
@@ -1031,6 +1049,20 @@ static void generic_exception_handle()
 //#endif
 }
 
+bool GUI_App::getLocalAppDataFloder(boost::filesystem::path& fpath)
+{
+  PWSTR path = nullptr;
+  HRESULT hr   = SHGetKnownFolderPath(FOLDERID_LocalAppData,0,nullptr,&path);
+  if (FAILED(hr)) 
+  {
+    return false;
+  }
+
+  fpath = path;
+  CoTaskMemFree(path);
+  return true;
+}
+
 void GUI_App::toggle_show_gcode_window()
 {
     m_show_gcode_window = !m_show_gcode_window;
@@ -1361,6 +1393,15 @@ GUI_App::GUI_App()
 #endif
     m_subProcessId = startSubProcess();
     reset_to_active();
+
+    logger_ = nullptr;
+    boost::filesystem::path fpath;
+    bool                    flag = getLocalAppDataFloder(fpath);
+    if (flag) {
+        fpath.append("FormLetter\\logs\\basic_log.txt");
+        logger_ = spdlog::basic_logger_mt("spdlog_file", fpath.string().c_str());
+    }
+    //setFolderAccess();
 }
 
 void GUI_App::shutdown()
@@ -7610,6 +7651,10 @@ void parse_configuer(const std::string& json_string, stl_configuer& stStlConfig)
         stStlConfig.zip_download_url = zip_item->valuestring;
 
         size_t index = stStlConfig.zip_download_url.rfind("\\");
+        if (index == std::string::npos) {
+            index = stStlConfig.zip_download_url.rfind("/");
+        }
+     
         if (index != std::string::npos) {
             stStlConfig.zip_file_name = stStlConfig.zip_download_url.substr(index + 1);
         }
@@ -7842,6 +7887,10 @@ int MinizReadFileFromZipFile(const boost::filesystem::path&        zip_file,
 void GUI_App::handle_download_stl(const pstree &root) 
 {
     // parse configuration file
+    if (helper_.isDebugMode() && logger_) 
+    {
+      logger_->info("start to parse recive  stl file info!");
+    }
     const pstree &data_node = root.get_child("data");
     std::stringstream ss;
     boost::property_tree::write_json(ss, data_node, false);
@@ -7850,6 +7899,11 @@ void GUI_App::handle_download_stl(const pstree &root)
 
     if (stStlConfig.zip_download_url.empty()) {
         return;
+    }
+
+    if (helper_.isDebugMode() && logger_)
+    {
+      logger_->info("successful to parse recive  stl file info!");
     }
 
     // create down directory
@@ -7880,6 +7934,7 @@ void GUI_App::handle_download_stl(const pstree &root)
         wxMessageBox(_L("Fail loading, please check network connection and try again"), _L("Error"));
         return;
     }
+
  
     //unzip file
     //boost::filesystem::path zip_file = download_path / boost::filesystem::path(stStlConfig.zip_file_name);
@@ -7887,13 +7942,24 @@ void GUI_App::handle_download_stl(const pstree &root)
     if (0 != MinizReadFileFromZipFile(zip_file_path, unzip_directory, vecFilePath,dlg,DOWNLOAD_PRECENT,EXTRACT_PRECENT))
         return;
     dlg.Update(DONE_PRECENT, _L("Generating done"));
+
+    if (helper_.isDebugMode() && logger_) 
+    {
+      logger_->info("successful to download  stl zip file and unzip  info!");
+    }
     //import file to OrcaSlicer
      Plater *curren_plater = NULL;
     if (!this->mainframe)  return;
      curren_plater = this->mainframe->m_plater;
     if (!curren_plater) return;
-    curren_plater->add_file(vecFilePath);
 
+    curren_plater->add_file(vecFilePath);
+    if (helper_.isDebugMode() && logger_) 
+    {
+      logger_->info("successful to  add stl to plater!");
+    }
+
+    logger_->flush();
      // remove file
      #ifdef NOT_REMOVE_FILE
      #else
@@ -7901,6 +7967,71 @@ void GUI_App::handle_download_stl(const pstree &root)
      RemoveFile(vecFilePath);
      #endif
 }
+
+
+/*
+void GUI_App::setFolderAccess(const std::string& folder_name)
+{
+    boost::filesystem::path exe_dir     = getExePath();
+    boost::filesystem::path folder_path = exe_dir.append(folder_name);
+
+    // 设置目录权限
+    EXPLICIT_ACCESS_W ea;
+    ZeroMemory(&ea, sizeof(EXPLICIT_ACCESS_W));
+
+    // 设置Everyone组的完全控制权限
+    ea.grfAccessPermissions = GENERIC_ALL;
+    ea.grfAccessMode        = SET_ACCESS;
+    ea.grfInheritance       = SUB_CONTAINERS_AND_OBJECTS_INHERIT; // 递归继承
+
+    TRUSTEE_W trustee;
+    ZeroMemory(&trustee, sizeof(TRUSTEE_W));
+    trustee.TrusteeForm = TRUSTEE_IS_NAME;
+    trustee.TrusteeType = TRUSTEE_IS_WELL_KNOWN_GROUP;
+    trustee.ptstrName   = const_cast<LPWSTR>(L"Everyone"); // 所有人
+
+    ea.Trustee = trustee;
+
+    PACL pOldDACL = nullptr;
+    PACL pNewDACL = nullptr;
+    PSECURITY_DESCRIPTOR pSecurityDescriptor = nullptr;
+
+    // 获取当前DACL
+    DWORD dwResult = GetNamedSecurityInfoW(folder_path.wstring().c_str(), SE_FILE_OBJECT, DACL_SECURITY_INFORMATION, 
+              nullptr, nullptr, &pOldDACL, nullptr, &pSecurityDescriptor);
+
+    if (dwResult != ERROR_SUCCESS) {
+        return;
+    }
+
+    // 设置新DACL
+    dwResult = SetEntriesInAclW(1, &ea, pOldDACL, &pNewDACL);
+    if (dwResult != ERROR_SUCCESS) {
+        LocalFree(pOldDACL);
+        return;
+    }
+
+    // 应用新权限
+    std::wstring folder_path_                = folder_path.wstring();
+    dwResult = SetNamedSecurityInfoW(folder_path_.data(), SE_FILE_OBJECT,
+                                     DACL_SECURITY_INFORMATION | PROTECTED_DACL_SECURITY_INFORMATION, nullptr, nullptr, pNewDACL, nullptr);
+
+    if (pNewDACL) 
+    {
+        LocalFree(pNewDACL);
+    }
+
+    if (pSecurityDescriptor)
+    {
+        LocalFree(pSecurityDescriptor);
+    }
+
+    if (helper_.isDebugMode() && logger_) 
+    {
+        logger_->info("GUI_App::setFolderAccess successful revise folder [%s] write access", folder_name.c_str());
+    }
+}
+*/
 
 bool is_support_filament(int extruder_id)
 {
@@ -7918,5 +8049,27 @@ bool is_support_filament(int extruder_id)
     return support_option->get_at(0);
 };
 
-} // GUI
-} //Slic3r
+configHelper::configHelper() 
+{
+    bDebug = false;
+    strUrl = "";
+    
+    ReadConfig();
+}
+
+bool configHelper::isDebugMode() { return bDebug; }
+
+std::string configHelper::GetUrl() { return strUrl; }
+
+bool configHelper::ReadConfig(const std::string& name) 
+{ 
+  boost::property_tree::ptree pt;
+  boost::property_tree::read_ini(getExePath().append(name).string(),pt);
+
+  bDebug = pt.get<int>("Common.debug") == 0 ? false : true;
+  strUrl = pt.get<std::string>("Common.url");
+  return true; 
+}
+
+
+}} //Slic3r
