@@ -7918,7 +7918,7 @@ void GUI_App::handle_download_stl(const pstree &root)
         SetFileAttributes(unzip_directory.wstring().c_str(), flag);
     }
 
-    if (!boost::filesystem::exists(zip_file_path)) {
+    if (boost::filesystem::exists(zip_file_path)) {
         boost::filesystem::remove(zip_file_path);
     }
 
